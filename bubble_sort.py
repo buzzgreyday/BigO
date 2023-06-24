@@ -9,5 +9,4 @@ def bubble_sort(arr, count=0):
             if arr[j] > arr[j+1]:
                 # Swap them
                 arr[j], arr[j+1] = arr[j+1], arr[j]
-        print(arr)
     return arr, count
