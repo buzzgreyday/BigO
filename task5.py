@@ -4,7 +4,7 @@ import random
 
 # task 5: Create and analyze the binary_search function
 arr = [0, 10, 20, 30, 40, 50, 60]
-x = 6
+x = 60
 result, count = binary_search(arr, 0, len(arr)-1, x)
 #initial test
 # Test array 
